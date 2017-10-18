@@ -1,11 +1,11 @@
 def substrings(str, arr)
 	string_array = str.split(/\W|\_/)
-	puts string_array
-	
+	p string_array
+	string_array & arr
 end
 
-bugs = ["this_", "that", "mine", "cow"]
-substrings("this is it's a cow", bugs)
+bugs = ["this_", "that", "mine", "cow", "hold"]
+substrings("this is it's a cow threshhold", bugs
 	
 
 
